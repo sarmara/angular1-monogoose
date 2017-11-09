@@ -1,0 +1,29 @@
+﻿1. 创建项目
+express --view=ejs community
+2. 安装依赖包
+cd community && cnpm install
+3. 改端口
+bin/www文件中找到var port = normalizePort(process.env.PORT || '3000');
+
+
+
+接下来是Mongoose中所有可用的数据类型。
+
+    String
+    字符串
+    Number
+    数字
+    Date
+    日期
+    Buffer
+    缓冲区
+    Boolean
+    布尔值
+    Mixed
+    混合
+    ObjectId
+    对象ID
+    Array
+    数组
+
+Promise 的出现就是为了主要解决这两个主要问题：它可以让我们以同步的方式编写异步代码，同时我们也可以优雅的捕获错误和异常。
